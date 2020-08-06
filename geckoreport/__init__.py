@@ -34,7 +34,7 @@ class GeckoReport:
             page += 1
 
             # Remain below API rate limit
-            time.sleep(1)
+            time.sleep(2)
         
         return cm_list
 
